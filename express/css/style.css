@@ -1,0 +1,37 @@
+.container-fluid {
+    min-height: 100vh;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr;
+    background: rgb(108, 117, 125);
+    transition: all 0.2s;
+    /* background: linear-gradient();*/
+}
+
+#twitter-icon,
+#facebook-icon {
+    color: rgb(108, 117, 125);
+}
+
+@media (max-width : 767px) {
+    .quote {
+        height: 90vh;
+        font-size: 3.5rem;
+        text-align: center;
+        padding-top: 3rem;
+
+    }
+
+    #quote-text {
+        padding-bottom: 3rem !important;
+    }
+
+    #twitter-link {
+        padding-bottom: 1rem;
+    }
+
+    .btn {
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+}

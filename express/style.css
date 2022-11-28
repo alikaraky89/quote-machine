@@ -1,0 +1,7 @@
+.container-fluid {
+    min-height: 100vh;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr;
+    background: rgb(108, 117, 125)
+}
