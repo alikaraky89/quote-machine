@@ -15,7 +15,7 @@
 
 @media (max-width : 767px) {
     .quote {
-        height: 90vh;
+        min-height: 90vh;
         font-size: 1.8rem;
         text-align: center;
 
