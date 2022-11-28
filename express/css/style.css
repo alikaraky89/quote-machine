@@ -16,14 +16,14 @@
 @media (max-width : 767px) {
     .quote {
         height: 90vh;
-        font-size: 3.5rem;
+        font-size: 2rem;
         text-align: center;
         padding-top: 3rem;
 
     }
 
     #quote-text {
-        padding-bottom: 3rem !important;
+        padding-bottom: 2rem !important;
     }
 
     #twitter-link {
@@ -31,7 +31,7 @@
     }
 
     .btn {
-        font-size: 3rem;
+        font-size: 2rem;
         margin-top: 1rem;
     }
 }
